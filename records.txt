@@ -1,4 +1,0 @@
-('tanishq', '8287428495', 'sdsfsf', 'paris', 1)
-('tanishq', '8287428495', 'sdsfsf', 'paris', 1)
-('ankita', '535t4w5t2', 'svaergfer', 'safggerf', 0)
-the customer rating was 8
