@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation And Key Frames</title>
+    <style>
+        .container{
+            background-color: yellowgreen;
+        }
+        .box{
+            background-color: green;
+            width: 250px;
+            height: 250px;
+            position: relative;
+
+            animation-name: first-animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            /* this nimation fill mode keep the animation according to the last animation */
+            /* forward will leep it to the last animation */
+            /* alternate will bring it back to the start phase */
+            /* and much more */
+            /* animation-fill-mode: alternate; */
+        }
+/* 
+        @keyframes first-animation {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 500px;
+            }
+        } */
+
+        @keyframes first-animation {
+            0%{
+                top: 0px;
+                left: 0px;
+                
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;   
+            }
+            75%{
+                top: 0px;
+                left: 250px;
+            }
+            50%{
+                top: 250px;
+                left: 250px;
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            i am a square moving in a square direction lol
+        </div>
+    </div>
+</body>
+</html>
